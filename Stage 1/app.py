@@ -21,6 +21,8 @@ class Record(Base):
     text = Column('text', String(1024))
     result = Column('result', Boolean)
 
+    
+db.create_all()
 
 # don't change the following way to run flask:
 if __name__ == '__main__':
